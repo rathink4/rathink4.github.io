@@ -1,18 +1,18 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - AlgoSphere</title>
-        <link>http://rathink4.github.io/posts/</link>
+        <link>https://rathink4.github.io/posts/</link>
         <description>All Posts | AlgoSphere</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 04 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://rathink4.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 04 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://rathink4.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Demystifying Docker: A Beginner Guide to Containerization</title>
-    <link>http://rathink4.github.io/posts/docker/</link>
-    <pubDate>Sun, 04 Feb 2024 00:00:00 &#43;0000</pubDate><guid>http://rathink4.github.io/posts/docker/</guid>
+    <link>https://rathink4.github.io/posts/docker/</link>
+    <pubDate>Sun, 04 Feb 2024 00:00:00 &#43;0000</pubDate><guid>https://rathink4.github.io/posts/docker/</guid>
     <description><![CDATA[Introduction: In the fast-paced world of software development, agility and scalability are key factors in delivering successful applications. Traditional methods of deploying applications on physical or virtual servers often come with challenges like dependency issues, environment inconsistencies, and deployment bottlenecks. However, with the rise of containerization technology, developers now have a powerful tool at their disposal to streamline the deployment process and enhance application portability. In this blog post, we&rsquo;ll delve into the world of Docker and containerization, exploring what they are, how they work, and why they&rsquo;re revolutionizing the way we build and deploy applications.]]></description>
 </item>
 <item>
     <title>A Beginner Guide to Hadoop: Unlocking the Power of Big Data</title>
-    <link>http://rathink4.github.io/posts/hadoop/</link>
-    <pubDate>Fri, 02 Feb 2024 00:00:00 &#43;0000</pubDate><guid>http://rathink4.github.io/posts/hadoop/</guid>
+    <link>https://rathink4.github.io/posts/hadoop/</link>
+    <pubDate>Fri, 02 Feb 2024 00:00:00 &#43;0000</pubDate><guid>https://rathink4.github.io/posts/hadoop/</guid>
     <description><![CDATA[What is Hadoop? Hadoop is an open-source framework developed by the Apache Software Foundation, designed to store and process large datasets distributed across clusters of commodity hardware. It provides a scalable, reliable, and cost-effective solution for handling big data.
 Components of Hadoop Hadoop Distributed File System (HDFS) At the core of Hadoop is the Hadoop Distributed File System (HDFS), a distributed file system that stores data across multiple machines in a Hadoop cluster.]]></description>
 </item>
