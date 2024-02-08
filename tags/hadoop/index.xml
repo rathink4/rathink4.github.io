@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>hadoop - Tag - AlgoSphere</title>
+        <link>https://rathink4.github.io/tags/hadoop/</link>
+        <description>hadoop - Tag - AlgoSphere</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 02 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://rathink4.github.io/tags/hadoop/" rel="self" type="application/rss+xml" /><item>
+    <title>A Beginner Guide to Hadoop: Unlocking the Power of Big Data</title>
+    <link>https://rathink4.github.io/posts/hadoop/</link>
+    <pubDate>Fri, 02 Feb 2024 00:00:00 &#43;0000</pubDate><guid>https://rathink4.github.io/posts/hadoop/</guid>
+    <description><![CDATA[What is Hadoop? Hadoop is an open-source framework developed by the Apache Software Foundation, designed to store and process large datasets distributed across clusters of commodity hardware. It provides a scalable, reliable, and cost-effective solution for handling big data.
+Components of Hadoop Hadoop Distributed File System (HDFS) At the core of Hadoop is the Hadoop Distributed File System (HDFS), a distributed file system that stores data across multiple machines in a Hadoop cluster.]]></description>
+</item>
+</channel>
+</rss>

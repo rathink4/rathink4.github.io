@@ -3,9 +3,15 @@
         <title>AlgoSphere</title>
         <link>https://rathink4.github.io/</link>
         <description>AlgoSphere</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 04 Feb 2024 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 08 Feb 2024 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://rathink4.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Spark and its impact on AWS and Databricks: Empowering Big Data Solutions</title>
+    <link>https://rathink4.github.io/posts/spark_aws_databricks/</link>
+    <pubDate>Thu, 08 Feb 2024 00:00:00 &#43;0000</pubDate><guid>https://rathink4.github.io/posts/spark_aws_databricks/</guid>
+    <description><![CDATA[In the ever-evolving landscape of big data processing and analytics, Apache Spark has emerged as a powerful open-source framework, revolutionizing how organizations manage and analyze massive datasets. Its seamless integration with cloud platforms like Amazon Web Services (AWS) and specialized platforms like Databricks has further accelerated its adoption and transformed the data analytics landscape. In this blog post, we&rsquo;ll explore Spark&rsquo;s influence on AWS technologies and Databricks, along with certifications that can help individuals deepen their understanding and expertise in these areas.]]></description>
+</item>
+<item>
     <title>Demystifying Docker: A Beginner Guide to Containerization</title>
     <link>https://rathink4.github.io/posts/docker/</link>
     <pubDate>Sun, 04 Feb 2024 00:00:00 &#43;0000</pubDate><guid>https://rathink4.github.io/posts/docker/</guid>

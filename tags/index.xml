@@ -3,5 +3,41 @@
         <title>Tags - Tag - AlgoSphere</title>
         <link>https://rathink4.github.io/tags/</link>
         <description>Tags - Tag - AlgoSphere</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://rathink4.github.io/tags/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 08 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://rathink4.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>aws</title>
+    <link>https://rathink4.github.io/tags/aws/</link>
+    <pubDate>Thu, 08 Feb 2024 00:00:00 &#43;0000</pubDate><guid>https://rathink4.github.io/tags/aws/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>databricks</title>
+    <link>https://rathink4.github.io/tags/databricks/</link>
+    <pubDate>Thu, 08 Feb 2024 00:00:00 &#43;0000</pubDate><guid>https://rathink4.github.io/tags/databricks/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>spark</title>
+    <link>https://rathink4.github.io/tags/spark/</link>
+    <pubDate>Thu, 08 Feb 2024 00:00:00 &#43;0000</pubDate><guid>https://rathink4.github.io/tags/spark/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>containerization</title>
+    <link>https://rathink4.github.io/tags/containerization/</link>
+    <pubDate>Sun, 04 Feb 2024 00:00:00 &#43;0000</pubDate><guid>https://rathink4.github.io/tags/containerization/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>docker</title>
+    <link>https://rathink4.github.io/tags/docker/</link>
+    <pubDate>Sun, 04 Feb 2024 00:00:00 &#43;0000</pubDate><guid>https://rathink4.github.io/tags/docker/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>hadoop</title>
+    <link>https://rathink4.github.io/tags/hadoop/</link>
+    <pubDate>Fri, 02 Feb 2024 00:00:00 &#43;0000</pubDate><guid>https://rathink4.github.io/tags/hadoop/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>

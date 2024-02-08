@@ -1,0 +1,13 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>docker - Tag - AlgoSphere</title>
+        <link>https://rathink4.github.io/tags/docker/</link>
+        <description>docker - Tag - AlgoSphere</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 04 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://rathink4.github.io/tags/docker/" rel="self" type="application/rss+xml" /><item>
+    <title>Demystifying Docker: A Beginner Guide to Containerization</title>
+    <link>https://rathink4.github.io/posts/docker/</link>
+    <pubDate>Sun, 04 Feb 2024 00:00:00 &#43;0000</pubDate><guid>https://rathink4.github.io/posts/docker/</guid>
+    <description><![CDATA[Introduction: In the fast-paced world of software development, agility and scalability are key factors in delivering successful applications. Traditional methods of deploying applications on physical or virtual servers often come with challenges like dependency issues, environment inconsistencies, and deployment bottlenecks. However, with the rise of containerization technology, developers now have a powerful tool at their disposal to streamline the deployment process and enhance application portability. In this blog post, we&rsquo;ll delve into the world of Docker and containerization, exploring what they are, how they work, and why they&rsquo;re revolutionizing the way we build and deploy applications.]]></description>
+</item>
+</channel>
+</rss>
