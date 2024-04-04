@@ -3,7 +3,13 @@
         <title>All Posts - AlgoSphere</title>
         <link>https://rathink4.github.io/posts/</link>
         <description>All Posts | AlgoSphere</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 08 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://rathink4.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 03 Apr 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://rathink4.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>A Quick Intro to Terraform</title>
+    <link>https://rathink4.github.io/posts/intro-to-terraform/</link>
+    <pubDate>Wed, 03 Apr 2024 00:00:00 &#43;0000</pubDate><guid>https://rathink4.github.io/posts/intro-to-terraform/</guid>
+    <description><![CDATA[What is Terraform and Why you want IaC? Terraform an infrastructure as code tool (written in Go) that can provision resources in the cloud from simple declarative code. When building an app in the cloud, you may find yourself using the graphical user interface (GUI) of your preferred Cloud Service Provider, clicking buttons and paying for products just like you would on an e-commerce website. But the only drawback of this approach is that it&rsquo;s complete and total chaos when you might click thousands of different buttons to get you Virtual machine (VM) configured properly.]]></description>
+</item>
+<item>
     <title>Spark and its impact on AWS and Databricks: Empowering Big Data Solutions</title>
     <link>https://rathink4.github.io/posts/spark_aws_databricks/</link>
     <pubDate>Thu, 08 Feb 2024 00:00:00 &#43;0000</pubDate><guid>https://rathink4.github.io/posts/spark_aws_databricks/</guid>

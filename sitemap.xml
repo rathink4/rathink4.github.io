@@ -2,15 +2,18 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://rathink4.github.io/posts/intro-to-terraform/</loc><lastmod>2024-04-03T00:00:00&#43;00:00</lastmod></url><url>
             <loc>https://rathink4.github.io/posts/spark_aws_databricks/</loc><lastmod>2024-02-08T00:00:00&#43;00:00</lastmod></url><url>
             <loc>https://rathink4.github.io/posts/docker/</loc><lastmod>2024-02-04T00:00:00&#43;00:00</lastmod></url><url>
             <loc>https://rathink4.github.io/posts/hadoop/</loc><lastmod>2024-02-02T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>https://rathink4.github.io/</loc><lastmod>2024-02-08T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>https://rathink4.github.io/</loc><lastmod>2024-04-03T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>https://rathink4.github.io/tags/iac/</loc><lastmod>2024-04-03T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>https://rathink4.github.io/posts/</loc><lastmod>2024-04-03T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>https://rathink4.github.io/tags/</loc><lastmod>2024-04-03T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>https://rathink4.github.io/tags/terraform/</loc><lastmod>2024-04-03T00:00:00&#43;00:00</lastmod></url><url>
             <loc>https://rathink4.github.io/tags/aws/</loc><lastmod>2024-02-08T00:00:00&#43;00:00</lastmod></url><url>
             <loc>https://rathink4.github.io/tags/databricks/</loc><lastmod>2024-02-08T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>https://rathink4.github.io/posts/</loc><lastmod>2024-02-08T00:00:00&#43;00:00</lastmod></url><url>
             <loc>https://rathink4.github.io/tags/spark/</loc><lastmod>2024-02-08T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>https://rathink4.github.io/tags/</loc><lastmod>2024-02-08T00:00:00&#43;00:00</lastmod></url><url>
             <loc>https://rathink4.github.io/tags/containerization/</loc><lastmod>2024-02-04T00:00:00&#43;00:00</lastmod></url><url>
             <loc>https://rathink4.github.io/tags/docker/</loc><lastmod>2024-02-04T00:00:00&#43;00:00</lastmod></url><url>
             <loc>https://rathink4.github.io/about/</loc><lastmod>2024-02-02T00:00:00&#43;00:00</lastmod></url><url>
