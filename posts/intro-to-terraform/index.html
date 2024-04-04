@@ -31,7 +31,7 @@
                             "url": "https:\/\/rathink4.github.io\/posts\/intro-to-terraform\/featured-image.webp",
                             "width":  1200 ,
                             "height":  600 
-                        }],"genre": "posts","keywords": "terraform, iac","wordcount":  498 ,
+                        }],"genre": "posts","keywords": "terraform, iac","wordcount":  500 ,
         "url": "https:\/\/rathink4.github.io\/posts\/intro-to-terraform\/","datePublished": "2024-04-03T00:00:00+00:00","dateModified": "2024-04-03T00:00:00+00:00","publisher": {
             "@type": "Organization",
             "name": "rathink4"},"author": {
@@ -113,7 +113,7 @@
         alt="/posts/intro-to-terraform/featured-image.webp"
         title="Dunno what Terraform is? I gotchu ;)" /></div><div class="single-card" data-image="true"><h2 class="single-title animated flipInX">A Quick Intro to Terraform</h2><div class="post-meta">
                 <div class="post-meta-line"><span class="post-author"><a href="https://github.com/rathink4/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fa-solid fa-user-circle fa-fw"></i>rathink4</a></span></div>
-                <div class="post-meta-line"><span><i class="fa-regular fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2024-04-03">2024-04-03</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw"></i>&nbsp;498 words</span>&nbsp;
+                <div class="post-meta-line"><span><i class="fa-regular fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2024-04-03">2024-04-03</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw"></i>&nbsp;500 words</span>&nbsp;
                     <span><i class="fa-regular fa-clock fa-fw"></i>&nbsp;3 minutes</span>&nbsp;</div>
             </div>
             
@@ -140,7 +140,12 @@
 <p>Terraform provides a way to build, change, and version infrastructure safely and efficiently by representing your infrastruture and all the related settings using Hashicorp configuration language or optionally JSON. Think of it like a human readable blueprint that can execute and automate everything you do in cloud. It&rsquo;s was open source however now Hashicorp has made it Business Source License (BSL).</p>
 <h3 id="get-started">Get Started</h3>
 <p>The first step to get started is to install the CLI on your local system and then from your project create a file ending in <code>.tf</code> like <code>main.tf</code>. At the top you have Terraform block which controls global settings for terraform itself. Most importantly you can write your <code>providers</code> in this block which are like plugins that connect to your preferred CSP (AWS, GCP, Azure, etc). Below that you have a provider block which gives terraform the neccessary credentials to connect to our AWS account. From there you can create actual cloud infrastructure using a <code>resource</code> block. It takes a type as its first argument which corresponds to a product on AWS (in our case AMIs) then a custom name to identify it as the second argument. Inside the block we can customize the settings of the resource like its source instance id and anything else.</p>
-<pre tabindex="0"><code class="language-code" data-lang="code">terraform {
+<div class="details admonition example">
+        <div class="details-summary admonition-title">
+            <i class="icon fa-solid fa-list-ol fa-fw"></i>main.tf<i class="details-icon fa-solid fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><pre tabindex="0"><code class="language-code" data-lang="code">terraform {
   required_providers {
     aws = {
       source = &#34;hashicorp/aws&#34;
@@ -160,12 +165,23 @@ resource &#34;aws_ami_from_instance&#34; &#34;example&#34; {
   name               = &#34;terraform-example&#34;
   source_instance_id = &#34;i-xxxxxxxx&#34;
 }
-</code></pre><h3 id="launching-the-tf-file">Launching the .TF file</h3>
+</code></pre></div>
+        </div>
+    </div>
+<h3 id="launching-the-tf-file">Launching the .TF file</h3>
 <p>Now that our infrastruture is defined as code, we can run <code>terraform init</code> to initialize the project. Then we can use <code>terraform apply</code> to make the actual changes to AWS. It&rsquo;ll require a confirmation before making the changes to AWS. Then after it&rsquo;s complete the <code>terraform show</code> command can be used to inspect the current state of the infrastructure. What&rsquo;s awesome is that as we add more resources to the configuration terraform keeps track of the changes or diff similar to a version control system like <code>Git</code></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>terraform init
+<div class="details admonition info">
+        <div class="details-summary admonition-title">
+            <i class="icon fa-solid fa-info-circle fa-fw"></i>bash<i class="details-icon fa-solid fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>terraform init
 </span></span><span style="display:flex;"><span>terraform apply
 </span></span><span style="display:flex;"><span>terraform show
-</span></span></code></pre></div><p>Now that you have successfully provisioned the services using IaC, you can tear it all down using <code>terraform delete</code> command as the inverse of apply, to delete everything in your configuration file.</p>
+</span></span></code></pre></div></div>
+        </div>
+    </div>
+<p>Now that you have successfully provisioned the services using IaC, you can tear it all down using <code>terraform delete</code> command as the inverse of apply, to delete everything in your configuration file.</p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info"><div class="post-info-tag"><span><a href="/tags/terraform/">terraform</a>
                 </span><span><a href="/tags/iac/">iac</a>
